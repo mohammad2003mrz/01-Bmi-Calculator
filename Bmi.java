@@ -4,5 +4,7 @@ public class Bmi{
         Scanner input = new Scanner(System.in);
         System.out.println("Please Enter Your Mass In Kilograms");
         double inputMass = input.nextDouble();
+        System.out.println("Please Enter Your Height In Meters");
+        double inputHeight=input.nextDouble();
     }
 }
