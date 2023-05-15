@@ -7,5 +7,8 @@ public class Bmi{
         System.out.println("Please Enter Your Height In Meters");
         double inputHeight=input.nextDouble();
         double bmi = (inputMass) / Math.pow(inputHeight , 2);
+        if(bmi <= 18.5){
+            System.out.println("BMI "+": "+bmi+" Thinness ):");
+        }
     }
 }
