@@ -6,5 +6,6 @@ public class Bmi{
         double inputMass = input.nextDouble();
         System.out.println("Please Enter Your Height In Meters");
         double inputHeight=input.nextDouble();
+        double bmi = (inputMass) / Math.pow(inputHeight , 2);
     }
 }
