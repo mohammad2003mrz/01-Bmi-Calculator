@@ -13,7 +13,8 @@ public class Bmi{
             System.out.println("BMI "+": "+bmi+" Normal :)");
         }else if (bmi >= 25 && bmi <= 30){
             System.out.println("BMI "+": "+bmi+" Overweight /:");
-            
+        }else if (bmi >= 30){
+            System.out.println("BMI "+": "+bmi+" Obese |:");
         }
     }
 }
