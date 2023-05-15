@@ -9,6 +9,8 @@ public class Bmi{
         double bmi = (inputMass) / Math.pow(inputHeight , 2);
         if(bmi <= 18.5){
             System.out.println("BMI "+": "+bmi+" Thinness ):");
+        }else if (bmi <= 25 && bmi >= 20){
+            System.out.println("BMI "+": "+bmi+" Normal :)");
         }
     }
 }
